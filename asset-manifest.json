@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Tetris/static/css/main.c8a0d8e1.css",
+    "main.js": "/Tetris/static/js/main.f570ed96.js",
+    "static/js/787.e91ce787.chunk.js": "/Tetris/static/js/787.e91ce787.chunk.js",
+    "static/media/Snow_Animation.png": "/Tetris/static/media/Snow_Animation.42e04a0398d8671d0951.png",
+    "static/media/VT323-Regular.ttf": "/Tetris/static/media/VT323-Regular.2bc43ad8eb2f60b39f27.ttf",
+    "index.html": "/Tetris/index.html",
+    "main.c8a0d8e1.css.map": "/Tetris/static/css/main.c8a0d8e1.css.map",
+    "main.f570ed96.js.map": "/Tetris/static/js/main.f570ed96.js.map",
+    "787.e91ce787.chunk.js.map": "/Tetris/static/js/787.e91ce787.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8a0d8e1.css",
+    "static/js/main.f570ed96.js"
+  ]
+}
