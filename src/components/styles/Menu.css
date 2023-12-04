@@ -1,0 +1,58 @@
+.Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: 100;
+    background-color: red;
+}
+
+#title {
+    font-size: 30vw;
+    font-family: 'Common Pixel', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: "bw";
+    src: url("https://robindelaporte.fr/codepen/play/BwModelicaSS01-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Common Pixel';
+  src: url("/Users/tammy/Documents/CWRU/fullstack/Tetris_FullStack/tetris/src/img/VT323-Regular.ttf")
+}
+
+.button {
+    padding: 40px 80px;
+    font-size: 2em;
+    border: none;
+    border-radius: 50px;
+    box-shadow: rgba(0 ,0 ,0 ,0.5);
+    cursor: pointer;
+    background-color: #92bce3;
+    font-family: bw;
+    align-items: center;
+}
+
+.button:hover{
+    transform: scale(1.20);
+    transition: all 0.6s ease;
+    transform-origin: center;
+}
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}

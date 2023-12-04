@@ -1,0 +1,28 @@
+#menuButton {
+    padding: 10px 20px;
+    max-width: 15vw;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #acc7ed;
+    font-family: bw;
+    align-items: center;
+}
+
+h1{
+    font-family: bw;
+    padding-bottom: 10px;
+}
+
+#menuButton:hover{
+    transform: scale(1.20);
+    transition: all 0.6s ease;
+    transform-origin: center;
+}
+
+.button:hover{
+    transform: scale(1.20);
+    transition: all 0.6s ease;
+    transform-origin: center;
+}
